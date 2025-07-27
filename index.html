@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasuhiro Davide Kato - IT Support & AI Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init({
+              publicKey: "XvtasBZZ6VURVXQAj",
+            });
+        })();
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="img/Tasu Logo.png" alt="Tasu Logo" class="logo-img">
+                <span class="logo-text">Tasuhiro.dev</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">Chi Sono</a></li>
+                <li><a href="#services" class="nav-link">Servizi</a></li>
+                <li><a href="#projects" class="nav-link">Progetti</a></li>
+                <li><a href="#contact" class="nav-link">Contatti</a></li>
+            </ul>
+            <div class="language-switcher">
+                <a href="index.html" class="lang-link active">🇮🇹 IT</a>
+                <a href="index-en.html" class="lang-link">🇬🇧 EN</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="greeting">Ciao, sono</span>
+                    <span class="name">Tasuhiro Davide Kato</span>
+                    <span class="tagline">IT Support & AI Developer</span>
+                </h1>
+                <p class="hero-description">
+                    Trasformo idee in soluzioni intelligenti attraverso il codice, 
+                    specializzandomi in automazione, AI e supporto IT avanzato.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i>
+                        Contattami
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        <i class="fas fa-code"></i>
+                        Vedi Progetti
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/tasuboyz" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://t.me/tasu_Channel" target="_blank" class="social-link">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-animation">
+                    <div class="code-line">
+                        <span class="code-keyword">const</span>
+                        <span class="code-variable">developer</span>
+                        <span class="code-operator">=</span>
+                        <span class="code-string">"Tasuhiro"</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="code-keyword">function</span>
+                        <span class="code-function">createSolutions</span>() {
+                    </div>
+                    <div class="code-line">
+                        <span class="code-return">return</span>
+                        <span class="code-string">"Innovation"</span>
+                    </div>
+                    <div class="code-line">}</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Chi Sono</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        Nato a Tokyo e cresciuto in Italia, porto una prospettiva unica nel mondo dell'IT. 
+                        Con oltre 3 anni di esperienza nel settore, mi specializzo in soluzioni innovative 
+                        che combinano automazione, intelligenza artificiale e supporto tecnico avanzato.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Gussago (BS), Italia</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-globe"></i>
+                            <span>Italiano, Inglese, Giapponese</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Specializzazione in Meccatronica</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>AI & Machine Learning</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">PyTorch</span>
+                            <span class="skill-tag">Hugging Face</span>
+                            <span class="skill-tag">LLM Integration</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Programmazione</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">C#</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">PowerShell</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>DevOps & Sistemi</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Linux Server</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">n8n</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">I Miei Servizi</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Automazione Workflow</h3>
+                    <p>Progettazione e implementazione di workflow automatizzati con n8n, integrando AI e servizi esterni per ottimizzare i processi aziendali.</p>
+                    <div class="service-tech">
+                        <img src="img/n8n.PNG" alt="n8n" class="tech-icon">
+                        <span>n8n, API Integration, AI</span>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Soluzioni AI & ML</h3>
+                    <p>Sviluppo di applicazioni intelligenti utilizzando modelli di machine learning, bot Telegram e integrazione di LLM per automatizzare task complessi.</p>
+                    <div class="service-tech">
+                        <span>TensorFlow, PyTorch, Hugging Face</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Infrastruttura IT</h3>
+                    <p>Gestione completa dell'infrastruttura IT aziendale, configurazione server Linux, containerizzazione con Docker e monitoraggio sistemi.</p>
+                    <div class="service-tech">
+                        <img src="img/Portainer.PNG" alt="Portainer" class="tech-icon">
+                        <span>Docker, Portainer, GLPI</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Sviluppo Software</h3>
+                    <p>Creazione di applicazioni desktop e web personalizzate, tool di gestione aziendale, interfacce user-friendly per database e sistemi di monitoraggio.</p>
+                    <div class="service-tech">
+                        <span>C#, Python, JavaScript, DevExpress</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Automazione Industriale</h3>
+                    <p>Sincronizzazione con PLC e creazione di interfacce personalizzate. Specializzazione in estrazione e manipolazione di dati industriali con automazione e integrazioni in applicativi aziendali.</p>
+                    <div class="service-tech">
+                        <span>PLC Integration, Data Extraction, Custom Interfaces</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Supporto IT Avanzato</h3>
+                    <p>Helpdesk specializzato, troubleshooting avanzato, gestione domini Windows, tool di inventario e monitoraggio automatizzato dei sistemi.</p>
+                    <div class="service-tech">
+                        <span>Windows Server, PowerShell, Batch</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Progetti in Evidenza</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Leonardo AI Telegram Bot</h3>
+                        <a href="https://github.com/tasuboyz/Leonardo-AI-Telegram-Bot" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p>Web app su Telegram collegata con tutte le funzioni di Leonardo AI per la generazione di immagini intelligenti.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Telegram API</span>
+                        <span class="tech-tag">Leonardo AI</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Lead Generation Automation</h3>
+                        <a href="https://github.com/tasuboyz/lead-generation" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p>Sistema automatizzato per l'estrazione e gestione dei lead con integrazione diretta nel CRM aziendale.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">CRM Integration</span>
+                        <span class="tech-tag">Automation</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Curation Manager</h3>
+                        <a href="https://github.com/tasuboyz/steem___hive_curation_manager" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p>Tool per automatizzare la curation su blockchain, con modalità automatica per ottimizzare il processo.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Blockchain</span>
+                        <span class="tech-tag">Automation</span>
+                        <span class="tech-tag">Python</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Remote Server Monitor</h3>
+                        <a href="https://github.com/tasuboyz/Telegram-bot-archive" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p>Bot Telegram innovativo per il controllo remoto di cartelle e file su server, con funzioni complete di gestione.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Telegram Bot</span>
+                        <span class="tech-tag">Server Management</span>
+                        <span class="tech-tag">Remote Control</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Cur8.fun - Social Network Decentralizzato</h3>
+                        <a href="https://www.cur8.fun" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    <p>Social network decentralizzato basato sulla blockchain di Steem. Piattaforma innovativa che combina social media e tecnologia blockchain per una nuova esperienza utente.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript ES6</span>
+                        <span class="tech-tag">Flask Backend</span>
+                        <span class="tech-tag">Blockchain Steem</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Iniziamo a Collaborare</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Pronto per il tuo prossimo progetto?</h3>
+                    <p>Sono sempre interessato a nuove sfide e opportunità di collaborazione. Contattami per discutere come possiamo trasformare le tue idee in realtà.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span class="method-label">Email</span>
+                                <a href="mailto:tasuhiro.davide@gmail.com">tasuhiro.davide@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <span class="method-label">Telefono</span>
+                                <a href="tel:+393711369107">+39 371-1369107</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-telegram"></i>
+                            <div>
+                                <span class="method-label">Telegram</span>
+                                <a href="https://t.me/tasu_Channel" target="_blank">@tasu_Channel</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <span class="method-label">GitHub</span>
+                                <a href="https://github.com/tasuboyz" target="_blank">github.com/tasuboyz</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <input type="hidden" name="time" id="form-time">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Il tuo nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="La tua email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="title" placeholder="Oggetto" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Descrivimi il tuo progetto..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            <span class="btn-text">Invia Messaggio</span>
+                            <span class="btn-loading" style="display: none;">
+                                <i class="fas fa-spinner fa-spin"></i>
+                                Invio in corso...
+                            </span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <img src="img/Tasu Logo.png" alt="Tasu Logo" class="logo-img">
+                        <span>Tasuhiro.dev</span>
+                    </div>
+                    <p>Trasformando idee in soluzioni intelligenti</p>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-social">
+                        <a href="https://github.com/tasuboyz" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://t.me/tasu_Channel" target="_blank" class="social-link">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Tasuhiro Davide Kato. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
